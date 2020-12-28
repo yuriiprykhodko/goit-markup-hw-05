@@ -504,7 +504,7 @@ img {
 
   color: var(--primery-white-color);
 
-  transition: background-color 250ms var(--timing-function), --color3 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 .comand-button-icon:hover,
 .comand-button-icon:focus {
@@ -579,7 +579,7 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 
-  transition: border-color 250ms var(--timing-function), --color3 250ms var(--timing-function);
+  transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 .button-customer:hover,
 .button-customer:focus {
@@ -661,6 +661,7 @@ img {
 }
 /*p*/
 .footer-slogan {
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -751,7 +752,8 @@ img {
   background-color: var(--accent-grayish-color);
   color: var(--text-black-color);
 
-  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 /*название кнопки*/
 .button-name {
@@ -766,6 +768,7 @@ img {
 .button-link:focus {
   background-color: var(--title-blue-color);
   color: var(--primery-white-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .button-adrress .button-type + .button-type {
   margin-left: 8px;
