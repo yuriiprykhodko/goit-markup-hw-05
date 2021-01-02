@@ -125,7 +125,9 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: color 250ms var(--timing-function);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 /*li*/
 .item {
@@ -162,7 +164,9 @@ img {
   align-items: center;
   color: var(--accent-grey-color);
 
-  transition: color 250ms var(--timing-function);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 /*svg*/
 .icon {
@@ -243,7 +247,9 @@ img {
   background-color: var(--accent-backdrop-color);
 
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -581,7 +587,9 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 
-  transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
+  transition-property: border-color, --color3;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .button-customer:hover,
 .button-customer:focus {
@@ -649,7 +657,9 @@ img {
 
   color: var(--accent-grey-color);
 
-  transition: color 250ms var(--timing-function);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .address-links .address-name:hover,
@@ -695,7 +705,9 @@ img {
   background-color: var(--accent-footer-b-color);
   border-radius: 50%;
 
-  transition: background-color 250ms var(--timing-function);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 /*svg*/
 .footer-icon {
@@ -754,8 +766,9 @@ img {
   background-color: var(--accent-grayish-color);
   color: var(--text-black-color);
 
-  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
-    box-shadow 250ms var(--timing-function);
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 /*название кнопки*/
 .button-name {
@@ -850,7 +863,9 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .slid {
-  transition: box-shadow 250ms var(--timing-function);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 /*li*/
 .main-slids {
